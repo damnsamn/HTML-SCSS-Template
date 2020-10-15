@@ -1,0 +1,15 @@
+
+// Required Bootstrap
+@import "../lib/bootstrap-4.5.3/scss/functions";
+@import "../lib/bootstrap-4.5.3/scss/variables";
+@import "../lib/bootstrap-4.5.3/scss/mixins";
+@import "../lib/bootstrap-4.5.3/scss/utilities";
+// bootstrap-grid is imported in overrides.scss
+
+// CoM global scope
+@import 'variables';
+@import 'mixins';
+@import 'overrides';
+@import 'global';
+@import 'layout';
+@import 'helpers';

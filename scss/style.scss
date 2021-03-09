@@ -6,10 +6,13 @@
 @import "../lib/bootstrap-4.5.3/scss/utilities";
 @import "../lib/bootstrap-4.5.3/scss/grid";
 
-// CoM global scope
+// Global scope
 @import 'variables';
 @import 'mixins';
 @import 'overrides';
 @import 'global';
 @import 'layout';
 @import 'helpers';
+
+// Import component scss below
+//@import 'components/button';

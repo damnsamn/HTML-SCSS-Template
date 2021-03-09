@@ -4,7 +4,7 @@
 @import "../lib/bootstrap-4.5.3/scss/variables";
 @import "../lib/bootstrap-4.5.3/scss/mixins";
 @import "../lib/bootstrap-4.5.3/scss/utilities";
-@import "../lib/bootstrap-4.5.3/scss/grid";
+// bootstrap-grid is imported in overrides.scss
 
 // Global scope
 @import 'variables';
@@ -15,4 +15,4 @@
 @import 'helpers';
 
 // Import component scss below
-//@import 'components/button';
+@import 'components/button';
